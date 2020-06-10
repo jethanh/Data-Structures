@@ -29,7 +29,7 @@ class Stack:
 
     def pop(self):
         if self.size == 0:
-            return
+            return None
         else:
             self.size -= 1
             return self.storage.remove_tail()
